@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Siswa</h1>
+    <form action="pendaftaran" style="border: 1px; border-color: black;">
+        <table>
+            <tr>
+                <td>
+                    <label for="nama">Nama Calon Siswa </label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="nama" id="nama">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tempat/tgl">Tempat/Tgl Lahir </label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="tempat" id="tempat">
+                    <input type="date" name="tgl" id="tgl">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="agama">Agama </label>
+                </td>
+                <td>:</td>
+                <td>
+                    <select name="agama" id="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="alamat">Alamat</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <textarea name="alamat" id="alamat" cols="50" rows="7"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="telp">No.Telp/HP</label></td>
+                <td>:</td>
+                <td><input type="number" name="telp" id="telp"></td>
+            </tr>
+            <tr>
+                <td><label for="jeniskelamin">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jeniskelamin" id="laki" value="laki">
+                    <label for="laki">Laki-Laki</label>
+                    <input type="radio" name="jeniskelamin" id="perempuan" value="perempuan">
+                    <label for="perempuan">perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Hobi">Hobi</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="baca" id="baca" value="baca">
+                    <label for="baca">Membaca</label>
+                    <input type="checkbox" name="nulis" id="nulis" value="nulis">
+                    <label for="nulis">Menulis</label>
+                    <input type="checkbox" name="makan" id="makan" value="makan">
+                    <label for="makan">Makan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="foto">Pas Foto</label>
+                </td>
+                <td>:</td>
+                <td><input type="file" name="foto" id="foto"></td>
+            </tr>
+        </table>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
