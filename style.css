@@ -1,0 +1,41 @@
+ul{
+    list-style: none;
+    display: flex;
+    background-color: aquamarine;
+}
+li {
+    padding: 20px;
+    align-content: center;
+    /* padding-right: 20px; */
+}
+li.nama{
+    font-size: large;
+    text-decoration:solid;
+}
+li img{
+    height: 50px;
+    width: 50px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.flex{
+    display: flex;
+}
+table{
+    width: 100%;
+}
+th.two{
+    width: 50%;
+}
+td.two {
+    width: 50%;
+}
+th img{
+    width: 400px;
+}
+table.two, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
